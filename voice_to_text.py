@@ -6,7 +6,7 @@ r = sr.Recognizer()
 
 # Function to record audio and convert it to text
 def record_audio():
-    with sr.Microphone() as source:
+    with sr.Microphone(device_index=0) as source:
         st.write("Speak...")
         try:
             audio = r.listen(source, timeout=5)  # Set a timeout to handle no input gracefully
