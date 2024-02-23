@@ -2,3 +2,5 @@ streamlit
 SpeechRecognition
 PyAudio
 setuptools
+sounddevice
+numpy
