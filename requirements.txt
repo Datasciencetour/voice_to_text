@@ -4,3 +4,5 @@ PyAudio
 setuptools
 sounddevice
 numpy
+streamlit-audiorec
+Recognizer
